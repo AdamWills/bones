@@ -20,6 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
+	background: #000 url(../images/background.jpg) repeat-x; 
 }
 
 /********************
@@ -152,7 +153,13 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	#logo { 
+		margin: 0;
+		line-height: 0;
+		img {
+			width: 100%;
+		}
+	}
 
 /*********************
 NAVIGATION STYLES
@@ -176,7 +183,7 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
+			background-color: #fff;
 			border-bottom: 1px solid #ccc;
 
 			/*
